@@ -31,13 +31,6 @@ function Card(props) {
           borderWidth: 1,
           borderStyle: "solid",
           borderColor: "rgba(136,149,162,0.2)",
-          borderBottomColor: props.hasSuccessor
-            ? "transparent"
-            : "rgba(136,149,162,0.2)",
-          borderTopLeftRadius: props.hasPredecessor ? 0 : 3,
-          borderTopRightRadius: props.hasPredecessor ? 0 : 3,
-          borderBottomLeftRadius: props.hasSuccessor ? 0 : 3,
-          borderBottomRightRadius: props.hasSuccessor ? 0 : 3,
           padding: [3, 4],
           position: "relative",
           zIndex: "3",
@@ -47,7 +40,7 @@ function Card(props) {
           display: "block",
           outline: "none",
           marginBottom: props.hasSuccessor ? 0 : 3,
-          boxShadow: "0 3px 8px 0 rgba(0,0,0,0.03)",
+          boxShadow: "8px 8px 0 0 pink",
           transition:
             "border .15s linear, transform .15s linear, background-color .15s linear, box-shadow .15s linear, opacity .15s linear, transform .15s linear, box-shadow .15s linear",
           color: "paperHeadingColor",
@@ -61,7 +54,7 @@ function Card(props) {
           },
         }}
       >
-        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [3, 4] }}>
+        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [4, 5] }}>
           {props.title}
         </h3>
         <div
@@ -88,7 +81,7 @@ class CollectionTemplate extends React.Component {
     const icon = collection.icon
       ? jsx(
           icons[collection.icon],
-          { sx: { color: "iconColor" }, size: "2rem" },
+          { sx: { color: "iconColor" }, size: "4rem" },
           null
         )
       : null
@@ -102,7 +95,7 @@ class CollectionTemplate extends React.Component {
             sx={{
               color: "breadcrumbLinkTextColor",
               boxShadow: "none",
-              fontSize: 1,
+              fontSize: 2,
               "&:hover": {
                 color: "breadcrumbHoverLinkTextColor",
               },
@@ -110,10 +103,10 @@ class CollectionTemplate extends React.Component {
           >
             {this.props.data.site.siteMetadata.texts.allCollectionsText}
           </Link>{" "}
-          <span sx={{ color: "breadcrumbTextColor", fontSize: 1 }}>
+          <span sx={{ color: "breadcrumbTextColor", fontSize: 2 }}>
             &rsaquo;
           </span>{" "}
-          <span sx={{ color: "breadcrumbTextColor", fontSize: 1 }}>
+          <span sx={{ color: "breadcrumbTextColor", fontSize: 2 }}>
             {collection.title}
           </span>
         </p>
@@ -122,8 +115,7 @@ class CollectionTemplate extends React.Component {
             backgroundColor: "collectionBackgroundColor",
             borderColor: "transparent",
             borderStyle: "solid",
-            borderRadius: 2,
-            px: [2, 4],
+            px: [2, 3],
             py: 2,
             mb: 6,
           }}
@@ -153,6 +145,7 @@ class CollectionTemplate extends React.Component {
                     my: 0,
                     py: 0,
                     color: "collectionHeading",
+                    fontSize: 7,
                   }}
                 >
                   {collection.title}
@@ -241,7 +234,7 @@ class CollectionTemplate extends React.Component {
                       ":hover": { textDecoration: "none" },
                     }}
                   >
-                    <h3 sx={{ fontSize: 3, mb: 3, color: "initial" }}>
+                    <h3 sx={{ fontSize: 3, mb: 3, color: "initial", }}>
                       {section.title}
                     </h3>
                   </a>

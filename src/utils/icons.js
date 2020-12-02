@@ -5,8 +5,8 @@
 // https://react-icons.netlify.com/#/
 export {
   // people --------------------------------------------------------------------
-  FaRegHandPeace,
-  FaPeopleCarry,
+  // FaRegHandPeace,
+  // FaPeopleCarry,
   // FaPersonBooth,
   // FaUserAltSlash,
   // FaUserAlt,
@@ -114,6 +114,6 @@ export {
   // FaRegLightbulb,
   // FaRegPaperPlane,
   // FaRegSun,
-  FaMicrophoneAlt,
+  // FaMicrophoneAlt,
   FaRegListAlt,
 } from "react-icons/fa"

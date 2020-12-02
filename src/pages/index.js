@@ -33,7 +33,7 @@ class HelpCenterIndex extends React.Component {
           const icon = node.icon
             ? jsx(
                 icons[node.icon],
-                { sx: { color: "iconColor" }, size: "2rem" },
+                { sx: { color: "iconColor" }, size: "3rem" },
                 null
               )
             : null
@@ -52,10 +52,7 @@ class HelpCenterIndex extends React.Component {
               <article
                 sx={{
                   backgroundColor: "paperBackgroundColor",
-                  borderWidth: 1,
-                  borderStyle: "solid",
-                  borderColor: "paperBorderColor",
-                  borderRadius: 3,
+                  boxShadow: "8px 8px 0 0 pink",
                   py: 4,
                   px: 2,
                   position: "relative",
@@ -71,7 +68,6 @@ class HelpCenterIndex extends React.Component {
                     index === this.props.data.collections.edges.length - 1
                       ? 5
                       : 4,
-                  boxShadow: "0 3px 8px 0 rgba(0,0,0,0.03)",
                   transition:
                     "border .15s linear, transform .15s linear, background-color .15s linear, box-shadow .15s linear, opacity .15s linear, transform .15s linear, box-shadow .15s linear",
                   color: "paperHeadingColor",
@@ -101,6 +97,7 @@ class HelpCenterIndex extends React.Component {
                         mt: 0,
                         mb: 2,
                         color: "inherit",
+                        fontSize: [4,5],
                       }}
                     >
                       {node.title}

@@ -2,15 +2,15 @@
 
 - id: bitdepth
   title: Bit Depth
-  description: 
-  icon: "FaRegFileVideo"
+  description: "refers to the amount of information stored for images that appear on screen."
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/bitdepth/bitdepth.md
 
 - id: color
   title: Color
   description: Color
-  icon: "FaBox"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/color/additive.md
     - file: ../content/color/chroma.md
@@ -20,21 +20,21 @@
 - id: containers
   title: Containers
   description: 
-  icon: "FaRegFileVideo"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/containers/containers.md
 
 - id: encodings
   title: Encodings
   description: 
-  icon: "FaRegFileVideo"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/encodings/encodings.md
 
 - id: frames
   title: Frames
   description: Frames
-  icon: "FaRegFileVideo"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/frames/aspect_ratios.md
     - file: ../content/frames/frame_rates.md
@@ -43,7 +43,7 @@
 - id: pixels
   title: Pixels
   description: Pixels
-  icon: "FaRegFileVideo"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/pixels/chroma_subsampling.md
     - file: ../content/pixels/pixel_aspect_ratio.md
@@ -52,6 +52,6 @@
 - id: timecodes
   title: Timecodes
   description: Timecodes
-  icon: "FaRegFileVideo"
+  icon: "FaRegListAlt"
   articles:
     - file: ../content/timecodes/timecodes.md

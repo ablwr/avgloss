@@ -89,7 +89,6 @@ class ArticleTemplate extends React.Component {
             borderWidth: 1,
             borderStyle: "solid",
             borderColor: "paperBorderColor",
-            borderRadius: 3,
             px: [2, 4],
             py: 2,
             mb: 6,
@@ -100,14 +99,14 @@ class ArticleTemplate extends React.Component {
             width: "100%",
             display: "block",
             outline: "none",
-            boxShadow: "0 3px 8px 0 rgba(0,0,0,0.03)",
+            boxShadow: "8px 8px 0 0 pink",
             transition:
               "border .15s linear, transform .15s linear, background-color .15s linear, box-shadow .15s linear, opacity .15s linear, transform .15s linear, box-shadow .15s linear",
             color: "articleTextColor",
           }}
         >
           <header sx={{ mb: 3 }}>
-            <h2 sx={{ mt: 4, mb: 1 }}>{article.frontmatter.title}</h2>
+            <h2 sx={{ mt: 4, mb: 1, fontSize: 8 }}>{article.frontmatter.title}</h2>
             <p sx={{ my: 3, color: "articleDescriptionColor" }}>
               {article.frontmatter.description}
             </p>

@@ -119,7 +119,6 @@ function SearchInput(props) {
           color: "searchTextColor",
           fontSize: "18px",
           lineHeight: "18px",
-          borderRadius: 2,
           "&:focus": {
             backgroundColor: "white",
             boxShadow: "0 10px 20px rgba(0,0,0,0.14)",
@@ -152,7 +151,7 @@ function SearchInput(props) {
           zIndex: 4,
           borderBottomLeftRadius: 2,
           borderBottomRightRadius: 2,
-          boxShadow: "0 3px 8px 0 rgba(0,0,0,0.03)",
+          boxShadow: "8px 8px 0 0 pink",
         }}
       >
         {combobox.isOpen &&
@@ -162,7 +161,7 @@ function SearchInput(props) {
 
             const icon = jsx(
               icons[node.fields.collection.icon],
-              { sx: { color: "iconColor" }, size: "2rem" },
+              { sx: { color: "iconColor" }, size: "4rem" },
               null
             )
             return (
@@ -229,7 +228,7 @@ class Layout extends React.Component {
           {location.pathname === rootPath ? (
             <header
               sx={{
-                maxWidth: rhythm(50),
+                maxWidth: rhythm(33),
                 fontSize: 3,
                 px: [2, 4],
                 pt: 4,
@@ -244,7 +243,7 @@ class Layout extends React.Component {
             <header
               sx={{
 
-                maxWidth: rhythm(30),
+                maxWidth: rhythm(33),
                 px: [2, 4],
                 pt: 4,
                 pb: 2,
@@ -278,13 +277,13 @@ class Layout extends React.Component {
         </div>
         <div
           style={{
-            background: "#1D2D49",
+            background: "text",
           }}
         >
           <main
             sx={{
               mx: `auto`,
-              maxWidth: rhythm(30),
+              maxWidth: rhythm(33),
               px: [2, 4],
               py: [3],
             }}
@@ -295,11 +294,11 @@ class Layout extends React.Component {
         <footer
           sx={{
             marginLeft: `auto`,
-            maxWidth: rhythm(30),
+            maxWidth: rhythm(50),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-            textAlign: "center",
+            textAlign: "right",
             color: "footerTextColor",
-            fontSize: 3,
+            fontSize: 1,
           }}
         >
           <div sx={{ mt: 2 }}>

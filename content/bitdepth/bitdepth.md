@@ -3,7 +3,7 @@ title: Bit depth
 date: 2020-01-02
 author: ablwr
 modifiedDate: null
-description: "Bit depth"
+description: "refers to the amount of information stored for images that appear on screen."
 ---
 
 Bit depth, when speaking about video, refers to the amount of information stored for images that appear on screen. This bit depth information is stored for each bit plane. For color video, this bit depth covers three planes: typically Red/Green/Blue for RGB or Lightness/Blue-difference/Red-difference for YcbCr.

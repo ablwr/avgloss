@@ -14,9 +14,9 @@ export default {
     collectionBackgroundColor: "#C5E7DB",
     collectionHeading: "#282a36",
     collectionDescription: "#C5E7DB",
-    breadcrumbLinkTextColor: "#DDB52F",
-    breadcrumbHoverLinkTextColor: "#DDB52F",
-    breadcrumbTextColor: "#DDB52F",
+    breadcrumbLinkTextColor: "#FFADAD",
+    breadcrumbHoverLinkTextColor: "#FFADAD",
+    breadcrumbTextColor: "#FFD6A5",
     // article lvl (duh)
     articleTextColor: "#1D2D49",
     articleDescriptionColor: "#1D2D49",
@@ -36,9 +36,9 @@ export default {
   },
   // radii: [0, 2, 4, 8],
   fonts: {
-    body: "Yrsa, monospace",
+    body: "Ubuntu Mono, monospace",
     heading: "Exo, monospace",
-    monospace: "Menlo, monospace",
+    monospace: "Ubuntu Mono, monospace",
   },
   fontWeights: {
     body: 400,

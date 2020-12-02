@@ -14168,6 +14168,11 @@
   "resolved" "https://registry.npmjs.org/typeface-exo/-/typeface-exo-1.1.13.tgz"
   "version" "1.1.13"
 
+"typeface-ubuntu-mono@^1.1.13":
+  "integrity" "sha512-UBKNVxZukk2B+LnxxN0fwuKobwbO2u9BKyFQA07ux9pdxoKw7kUgKNXnxYH3utcvrge7wtoccnzyWwiclOWxow=="
+  "resolved" "https://registry.npmjs.org/typeface-ubuntu-mono/-/typeface-ubuntu-mono-1.1.13.tgz"
+  "version" "1.1.13"
+
 "typeface-yrsa@^1.1.13":
   "integrity" "sha512-cZErSPnGQAQpUlSf8o9pOe0ENCypOs9+ADvdOLZSnbnb4f6pM1RtEYoyI18s9wi8zntg4nYOXnVwAMqwk9BkQA=="
   "resolved" "https://registry.npmjs.org/typeface-yrsa/-/typeface-yrsa-1.1.13.tgz"
