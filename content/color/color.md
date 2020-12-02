@@ -3,7 +3,7 @@ title: Color
 date: 2020-01-02
 author: ablwr
 modifiedDate: null
-description: ""
+description: "covers color spaces and more."
 ---
 
 Color is a component crucial to video, and replicating human vision in analogue or digital media has

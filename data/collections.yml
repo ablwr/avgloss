@@ -9,7 +9,7 @@
 
 - id: color
   title: Color
-  description: Color
+  description: "covers color spaces and more."
   icon: "MdColorLens"
   articles:
     - file: ../content/color/color.md
@@ -20,21 +20,22 @@
 
 - id: containers
   title: Containers
-  description: 
+  description: "also known as wrappers, hold streams of audiovisual data."
   icon: "MdCheckBoxOutlineBlank"
   articles:
     - file: ../content/containers/containers.md
 
 - id: encodings
   title: Encodings
-  description: 
+  description: "A codec encodes and decodes a data stream or a signal for transmission and storage."
   icon: "MdSync"
   articles:
     - file: ../content/encodings/encodings.md
 
 - id: frames
   title: Frames
-  description: Frames
+  description: "Audiovisual materials are made up of frames – both in video, where frames are a series of images,
+and in audio, where frames are a series of samples."
   icon: "MdSlideshow"
   articles:
     - file: ../content/frames/aspect_ratios.md
@@ -44,7 +45,7 @@
 
 - id: pixels
   title: Pixels
-  description: Pixels
+  description: "Pixelssssssssssssssssssssssss"
   icon: "MdApps"
   articles:
     - file: ../content/pixels/chroma_subsampling.md
@@ -53,7 +54,7 @@
 
 - id: timecodes
   title: Timecodes
-  description: Timecodes
+  description: "Timecodes are tricky"
   icon: "MdMenu"
   articles:
     - file: ../content/timecodes/timecodes.md
