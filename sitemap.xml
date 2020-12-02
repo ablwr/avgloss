@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/color/additive/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/bitdepth/bitdepth/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/aspect_ratios/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/frame_rates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/interlacing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/samples/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/color/additive/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/color/chroma/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/color/luma-chroma/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/color/luma/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/aspect_ratios/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/interlacing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/frame_rates/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/frames/samples/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/pixels/pixel_aspect_ratio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/pixels/chroma_subsampling/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/pixels/pixels/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/articles/timecodes/timecodes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/articles/pixels/pixel_aspect_ratio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/collections/bitdepth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/collections/color</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/collections/frames</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
