@@ -17,6 +17,20 @@
     - file: ../content/color/luma-chroma.md
     - file: ../content/color/luma.md
 
+- id: containers
+  title: Containers
+  description: 
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/containers/containers.md
+
+- id: encodings
+  title: Encodings
+  description: 
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/encodings/encodings.md
+
 - id: frames
   title: Frames
   description: Frames

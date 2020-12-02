@@ -1,10 +1,10 @@
 module.exports = {
+  pathPrefix: `/avgloss`,
   siteMetadata: {
-    pathPrefix: "/avgloss",
     title: `audio/video glossary`,
     author: `Ashley Blewer`,
-    description: `audio/video glossary: definitions and context for audio-video lingo`,
-    siteUrl: `https://bits.ashleyblewer.com/avgloss`,
+    description: `audio/video glossary: definitions and context for audio-video lingo.`,
+    siteUrl: `https://bits.ashleyblewer.com/avgloss/`,
     language: "en",
     texts: {
       allCollectionsText: "All Collections",
