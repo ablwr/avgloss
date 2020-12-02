@@ -18,6 +18,8 @@
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/articles/timecodes/timecodes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/bitdepth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/color</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/containers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/encodings</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/frames</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/pixels</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://bits.ashleyblewer.com/avgloss/avgloss/collections/timecodes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
