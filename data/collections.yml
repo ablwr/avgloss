@@ -1,0 +1,43 @@
+# Collections and articles are shown in the same order as defined here
+
+- id: bitdepth
+  title: Bit Depth
+  description: 
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/bitdepth/bitdepth.md
+
+- id: color
+  title: Color
+  description: Color
+  icon: "FaBox"
+  articles:
+    - file: ../content/color/additive.md
+    - file: ../content/color/chroma.md
+    - file: ../content/color/luma-chroma.md
+    - file: ../content/color/luma.md
+
+- id: frames
+  title: Frames
+  description: Frames
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/frames/aspect_ratios.md
+    - file: ../content/frames/frame_rates.md
+    - file: ../content/frames/samples.md
+
+- id: pixels
+  title: Pixels
+  description: Pixels
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/pixels/chroma_subsampling.md
+    - file: ../content/pixels/pixel_aspect_ratio.md
+    - file: ../content/pixels/pixels.md
+
+- id: timecodes
+  title: Timecodes
+  description: Timecodes
+  icon: "FaRegFileVideo"
+  articles:
+    - file: ../content/timecodes/timecodes.md
