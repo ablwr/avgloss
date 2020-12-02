@@ -3,15 +3,16 @@
 - id: bitdepth
   title: Bit Depth
   description: "refers to the amount of information stored for images that appear on screen."
-  icon: "FaRegListAlt"
+  icon: "MdRadioButtonUnchecked"
   articles:
     - file: ../content/bitdepth/bitdepth.md
 
 - id: color
   title: Color
   description: Color
-  icon: "FaRegListAlt"
+  icon: "MdColorLens"
   articles:
+    - file: ../content/color/color.md
     - file: ../content/color/additive.md
     - file: ../content/color/chroma.md
     - file: ../content/color/luma-chroma.md
@@ -20,30 +21,31 @@
 - id: containers
   title: Containers
   description: 
-  icon: "FaRegListAlt"
+  icon: "MdCheckBoxOutlineBlank"
   articles:
     - file: ../content/containers/containers.md
 
 - id: encodings
   title: Encodings
   description: 
-  icon: "FaRegListAlt"
+  icon: "MdSync"
   articles:
     - file: ../content/encodings/encodings.md
 
 - id: frames
   title: Frames
   description: Frames
-  icon: "FaRegListAlt"
+  icon: "MdSlideshow"
   articles:
     - file: ../content/frames/aspect_ratios.md
     - file: ../content/frames/frame_rates.md
     - file: ../content/frames/samples.md
+    - file: ../content/frames/interlacing.md
 
 - id: pixels
   title: Pixels
   description: Pixels
-  icon: "FaRegListAlt"
+  icon: "MdApps"
   articles:
     - file: ../content/pixels/chroma_subsampling.md
     - file: ../content/pixels/pixel_aspect_ratio.md
@@ -52,6 +54,6 @@
 - id: timecodes
   title: Timecodes
   description: Timecodes
-  icon: "FaRegListAlt"
+  icon: "MdMenu"
   articles:
     - file: ../content/timecodes/timecodes.md

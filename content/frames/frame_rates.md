@@ -13,13 +13,13 @@ second that a piece of media should be set at and replayed. For film captured vi
 devices, the frame rate could vary depending on how quickly or slowly the cameraperson was
 winding the film at the time of capture. Generally, the frame rate of silent-era film was 18 fps
 (frames per second). This matters when film is digitized, because it is important to respect the
-original frame rate and not have film appear to be ‘sped up’.
+original frame rate and not have film appear to be ‘sped up’.  
+
 Part of the reason why bad transfers of silent film can appear to be moving faster than the natural,
 captured movement is that when sound on film arrived, it set frame rates to the standard of 24 fps.
 This was the standard for film for most of its lifetime (1920s–2000s), and only recently in the 21st
-century have filmmakers been experimenting with frame rates higher than this.
-Pragmatic Audiovisual Preservation
-10
+century have filmmakers been experimenting with frame rates higher than this.  
+
 In the context of audiovisual files, audio frames consist of all the audio samples taken during the
 interval of the video frame.Frame rate speeds have often depended on the two major standards, NTSC and PAL. NTSC (National
 Television Standards Committee) is the standard broadcast format in the United States, and PAL
